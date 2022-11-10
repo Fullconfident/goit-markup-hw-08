@@ -1162,6 +1162,7 @@ span {
     display: flex;
     align-items: center;
     color: #757575;
+    font-size: 12px;
     gap: 10px;
   }
 }
@@ -1184,6 +1185,7 @@ span {
     display: flex;
     align-items: center;
     color: #757575;
+    font-size: 12px;
     gap: 10px;
   }
 }
@@ -1273,13 +1275,6 @@ span {
     height: 10px;
   }
 }
-@media screen and (min-width: 768px) {
-  .icon__mail {
-    fill: currentColor;
-    width: 16px;
-    height: 12px;
-  }
-}
 
 .icon__tell {
   fill: currentColor;
@@ -1290,13 +1285,6 @@ span {
   .icon__tell {
     width: 10px;
     height: 14px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .icon__tell {
-    fill: currentColor;
-    width: 10px;
-    height: 16px;
   }
 }
 
