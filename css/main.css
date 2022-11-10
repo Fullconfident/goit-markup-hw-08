@@ -579,7 +579,7 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .feature__item {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 30px) / 2);
   }
 }
 
@@ -1636,7 +1636,7 @@ span {
 @media screen and (min-width: 768px) {
   .footer-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 60px;
   }
 }
@@ -1989,7 +1989,7 @@ span {
 @media screen and (min-width: 768px) {
   .footer-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 60px;
   }
 }
