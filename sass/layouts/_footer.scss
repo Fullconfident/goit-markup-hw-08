@@ -83,10 +83,12 @@ margin-top: 20px;
     
     .footer-soc{
         display: block;
-        margin: 60px 0;
+        @media screen and (min-width: 480px) {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
         @media screen and (min-width: 768px) {
         margin: 0;
-        margin-top: 8px;
     }
         @media screen and (min-width: 1200px) {
         margin-left: 70px;
@@ -129,17 +131,10 @@ margin-top: 20px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        @media screen and (min-width: 480px) {
-            width: 480px;
-        }
-        @media screen and (min-width: 768px) {
-            width: 768px;
-        }
         @media screen and (min-width: 1200px) {
-            width: 1200px;
             flex-direction: row;
             margin: 0 auto;
-            justify-content: space-between;
+            gap: 93px;
         }
     }
     
@@ -175,7 +170,7 @@ margin-top: 20px;
     }
 
     .followus {
-        display: inline-block;
+        display: block;
         //margin-bottom: 20px;
         font-weight: 700;
         font-size: 14px;
@@ -185,8 +180,8 @@ margin-top: 20px;
         color:var(--main-color);
         @media screen and (min-width: 1200px) {
         text-align: left;
-        display: flex;
     }
+    
     }
     
     .btn-icon {
@@ -203,13 +198,15 @@ margin-top: 20px;
     .input-email {
         padding: 15px 16px;
         width: 450px;
-        margin: 20px 0;
         background-color: inherit;
         outline: transparent;
         border-radius: 4px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         color:var(--main-color);
+        @media screen and (min-width: 480px) {
+        width: 450px;
+    }
         @media screen and (min-width: 1200px) {
         width: 358px;
     }
@@ -239,6 +236,15 @@ margin-top: 20px;
             background-color: #188ce8;
             box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
         }
+        @media screen and (min-width: 480px) {
+            margin-top: 20px;
+        } 
+        @media screen and (min-width: 768px) {
+            margin-top: 20px;
+        }   
+        @media screen and (min-width: 1200px) {
+            margin-top: 0;
+        }             
     }
     
     .btn-send {

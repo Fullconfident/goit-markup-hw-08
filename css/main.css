@@ -178,7 +178,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .form-title {
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     justify-content: center;
   }
 }
@@ -282,7 +282,7 @@ textarea {
 }
 @media screen and (min-width: 480px) {
   .form-checkbox {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -544,6 +544,7 @@ textarea {
 .feature__list {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 480px) {
   .feature__list {
@@ -591,17 +592,11 @@ textarea {
   text-transform: uppercase;
   color: var(--title-main-color);
   margin-bottom: 10px;
-  width: 270px;
-  height: 16px;
+  text-align: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .feature__head {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -778,7 +773,6 @@ textarea {
 
 .ourwork {
   background-color: var(--main-color);
-  padding-top: 47px;
   padding-bottom: 94px;
   display: none;
 }
@@ -1181,6 +1175,12 @@ span {
     gap: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .mail__contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
 
 .tel__contact {
   font-weight: 500;
@@ -1202,6 +1202,12 @@ span {
     color: #757575;
     font-size: 12px;
     gap: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tel__contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -1290,6 +1296,12 @@ span {
     height: 10px;
   }
 }
+@media screen and (min-width: 768px) {
+  .icon__mail {
+    width: 16px;
+    height: 12px;
+  }
+}
 
 .icon__tell {
   fill: currentColor;
@@ -1300,6 +1312,12 @@ span {
   .icon__tell {
     width: 10px;
     height: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .icon__tell {
+    width: 10px;
+    height: 16px;
   }
 }
 
@@ -1407,6 +1425,10 @@ span {
   .mob-menu__link {
     font-size: 40px;
   }
+}
+
+.mob-menu__item .mob-menu__link.current {
+  color: var(--second-main-color);
 }
 
 .mob-connect {
@@ -1567,12 +1589,16 @@ span {
 
 .footer-soc {
   display: block;
-  margin: 60px 0;
+}
+@media screen and (min-width: 480px) {
+  .footer-soc {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer-soc {
     margin: 0;
-    margin-top: 8px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1614,22 +1640,11 @@ span {
   flex-direction: column;
   text-align: center;
 }
-@media screen and (min-width: 480px) {
-  .footer-conteiner {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer-conteiner {
-    width: 768px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer-conteiner {
-    width: 1200px;
     flex-direction: row;
     margin: 0 auto;
-    justify-content: space-between;
+    gap: 93px;
   }
 }
 
@@ -1666,7 +1681,7 @@ span {
 }
 
 .followus {
-  display: inline-block;
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: var(--secondtipical-lh);
@@ -1677,7 +1692,6 @@ span {
 @media screen and (min-width: 1200px) {
   .followus {
     text-align: left;
-    display: flex;
   }
 }
 
@@ -1696,13 +1710,17 @@ span {
 .input-email {
   padding: 15px 16px;
   width: 450px;
-  margin: 20px 0;
   background-color: inherit;
   outline: transparent;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: var(--main-color);
+}
+@media screen and (min-width: 480px) {
+  .input-email {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .input-email {
@@ -1734,6 +1752,21 @@ span {
 .subscribe:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 480px) {
+  .subscribe {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-top: 0;
+  }
 }
 
 .btn-send {
@@ -1976,22 +2009,11 @@ span {
   flex-direction: column;
   text-align: center;
 }
-@media screen and (min-width: 480px) {
-  .footer-conteiner {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer-conteiner {
-    width: 768px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer-conteiner {
-    width: 1200px;
     flex-direction: row;
     margin: 0 auto;
-    justify-content: space-between;
+    gap: 93px;
   }
 }
 
@@ -2019,18 +2041,18 @@ span {
 }
 
 .followus {
-  display: inline-block;
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: var(--secondtipical-lh);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
   .followus {
     text-align: left;
-    display: flex;
   }
 }
 
@@ -2049,7 +2071,6 @@ span {
 .input-email {
   padding: 15px 16px;
   width: 450px;
-  margin: 20px 0;
   background-color: inherit;
   outline: transparent;
   border-radius: 4px;
@@ -2087,6 +2108,21 @@ span {
 .subscribe:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 480px) {
+  .subscribe {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-top: 0;
+  }
 }
 
 .btn-send {

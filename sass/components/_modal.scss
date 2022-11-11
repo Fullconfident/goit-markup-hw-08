@@ -46,6 +46,7 @@
         color: #2196F3;
         transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    
 }
 
 .model-close-icon{
@@ -72,7 +73,7 @@
     font-size: 20px;
 }
     @media screen and (min-width: 1200px) {
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     justify-content: center;
 }
 }
@@ -165,7 +166,7 @@ textarea {
 .form-checkbox {
     margin-top: 20px;
     @media screen and (min-width: 480px) {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 }
 
