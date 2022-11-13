@@ -726,6 +726,11 @@ textarea {
   max-width: 696px;
   margin: 0 auto;
 }
+@media screen and (max-width: 479px) {
+  .hero__head {
+    font-size: 26px;
+  }
+}
 @media screen and (min-width: 480px) {
   .hero__head {
     width: 360px;
@@ -918,6 +923,13 @@ textarea {
 .team-item {
   background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 479px) {
+  .team-item {
+    width: calc((100% - 30px) / 1);
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .team-item {
@@ -1592,6 +1604,12 @@ span {
 .footer-soc {
   display: block;
 }
+@media screen and (max-width: 479px) {
+  .footer-soc {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 480px) {
   .footer-soc {
     margin-top: 60px;
@@ -1755,6 +1773,11 @@ span {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+@media screen and (max-width: 479px) {
+  .subscribe {
+    margin-top: 20px;
+  }
+}
 @media screen and (min-width: 480px) {
   .subscribe {
     margin-top: 20px;
@@ -1900,7 +1923,7 @@ span {
     align-items: baseline;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .footer {
     width: 100vw;
     margin-left: auto;

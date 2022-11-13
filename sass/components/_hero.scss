@@ -59,6 +59,9 @@
     color: var(--main-color);
     max-width: 696px;
     margin: 0 auto;
+    @media screen and (max-width: 479px) {
+        font-size: 26px;
+        }
     @media screen and (min-width: 480px) {
     width: 360px;
     font-size: 26px;
