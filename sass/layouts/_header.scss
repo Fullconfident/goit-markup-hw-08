@@ -85,6 +85,11 @@
         gap: 10px;
     }
     @media screen and (min-width:1200px) {
+        font-weight: 500;
+    font-size: 14px;
+    line-height: var(--secondtipical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
         padding-top: 32px;
         padding-bottom: 32px;
     }
@@ -113,6 +118,11 @@
         gap: 10px;
     }
     @media screen and (min-width:1200px) {
+        font-weight: 500;
+    font-size: 14px;
+    line-height: var(--secondtipical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
         padding-top: 32px;
         padding-bottom: 32px;
     }

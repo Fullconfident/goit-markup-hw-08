@@ -17,6 +17,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
+    @media screen and (max-width: 479px) {
+        padding: 40px;
+        width: 300px;
+    }
     @media screen and (min-width: 480px) {
     padding: 40px;
     width: 450px;
@@ -69,6 +73,9 @@
     color: #212121;
     justify-content: center;
     margin-bottom: 12px;
+    @media screen and (max-width: 479px) {
+        font-size: 18px;
+    }
     @media screen and (min-width: 480px) {
     font-size: 20px;
 }
@@ -97,6 +104,9 @@
     margin-top: 4px;
     &:focus{
         border: 1px solid var(--second-main-color);
+    }
+    @media screen and (max-width: 479px) {
+        padding: 8px;
     }
     @media screen and (min-width: 480px) {
     padding: 11px;
@@ -154,6 +164,9 @@
     &::placeholder {
         color: rgba(117, 117, 117, 0.5);
     }
+    @media screen and (max-width: 479px) {
+        height: 90px;
+    }
     @media screen and (min-width: 480px) {
     height: 120px;
 }
@@ -178,6 +191,10 @@ textarea {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    @media screen and (max-width: 479px) {
+        font-size: 7px;
+        line-height: 1.17;
+    }
     @media screen and (min-width: 480px) {
     font-size: 12px;
 }
@@ -222,6 +239,10 @@ textarea {
         background-size: contain;
         background-origin: border-box;
     }
+    @media screen and (max-width: 479px) {
+        width: 14px;
+        height: 13px;
+    }
 }
 
 .policy {
@@ -230,6 +251,10 @@ textarea {
     margin-left: 5px;
     letter-spacing: 0.03em;
     color: var(--second-main-color);
+    @media screen and (max-width: 479px) {
+        font-size: 9px;
+        line-height: 1.17;
+    }
     @media screen and (min-width: 480px) {
     font-size: 12px;
 }
